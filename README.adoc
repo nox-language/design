@@ -1,0 +1,31 @@
+= Thoughts on design ideas for the Nox programming language
+
+At first, this repository will contain issues for language feature or standard library API and whether I want them in
+the Nox programming language.
+
+The goal of this exercise is to improve my thought process on why I want a feature or a standard library API in the hope
+that I can extract guidelines to use for future ideas to decide whether it's a good idea for the programming language.
+
+Since the goal of Nox is to be simple, it's important not to add too many features which is why doing this exercise is
+important.
+
+== Goals/values
+
+_This work-in-progress list of goals and values do not seem sufficient to evaluate whether I want to include a feature
+or an API in the language, which is why I created this repository._
+
+To evaluate whether a language feature or standard library API should be included in the language, we have a list of
+goals and values for the language.
+
+ * Memory and thread safety without compromising performance are the most important goal.
+ ** Unlike Rust, Nox doesn't want to provide other type of safety like cryptographic hash to prevent DDoS or Unicode
+ validation by default (that might not be true anymore for Unicode validation as I believe I found a way to have the
+ best of both worlds here).
+ * Performance is also the most important goal.
+ * The language should be as simple as it possibly can given the above goals.
+ ** Simplicity doesn't mean it's easy for the user in the sense that the language won't add convenience or ergonomic
+ features to make it more beginner-friendly.
+ ** Simplicity means that Nox will support the minimum features required to achieve its goals, nothing more.
+ ** To decide whether to add a feature in the language or the standard library, answer the following question:
+ *** How often will this be used? (*that does not seem like a good metric: for instance, I don't want regex to be part
+ of the standard library, yet this is a widely used feature*)
