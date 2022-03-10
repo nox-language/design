@@ -23,7 +23,7 @@ goals and values for the language.
  best of both worlds here).
  * Performance is also the most important goal.
  * The language should be as simple as it possibly can given the above goals.
- ** Simplicity doesn't mean it's easy for the user in the sense that the language won't add convenience or ergonomic
+ ** Simplicity doesn't mean it's easy for the user. The language won't add convenience or ergonomic
  features to make it more beginner-friendly.
  ** Simplicity means that Nox will support the minimum features required to achieve its goals, nothing more.
  ** To decide whether to add a feature in the language or the standard library, answer the following question:
