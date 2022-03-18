@@ -29,3 +29,5 @@ goals and values for the language.
  ** To decide whether to add a feature in the language or the standard library, answer the following question:
  *** How often will this be used? (*that does not seem like a good metric: for instance, I don't want regex to be part
  of the standard library, yet this is a widely used feature*)
+ *** Can this feature be implemented in a limited form in the compiler instead of in the std? Example:
+ **** Type constraint like `eq`, `hash` instead of traits.
