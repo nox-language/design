@@ -31,3 +31,5 @@ goals and values for the language.
  of the standard library, yet this is a widely used feature*)
  *** Can this feature be implemented in a limited form in the compiler instead of in the std? Example:
  **** Type constraint like `eq`, `hash` instead of traits.
+ * What can be done by external tools should be done by external tools.
+ ** For instance, C bindings.
