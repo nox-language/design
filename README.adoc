@@ -1,5 +1,7 @@
 = Thoughts on design ideas for the Nox programming language
 
+== **This project was moved to https://gitlab.com/nox-language/design[GitLab].**
+
 At first, this repository will contain issues for language feature or standard library API and whether I want them in
 the Nox programming language.
 
